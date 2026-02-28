@@ -1,8 +1,9 @@
-# stringToArray-API
+# word-sort-api
 
 Created a server-side API endpoint that will receive a webhook containing a single string of data. The code then converts the string into an array of characters, order the array alphabetically, and return the array as a word.
 
-# Features
+---
+## Features
 
 This is a simple FastAPI application that exposes a POST API endpoint to receive a webhook containing a string. The string is processed by:
 
@@ -11,7 +12,8 @@ This is a simple FastAPI application that exposes a POST API endpoint to receive
 3. Sorting the characters alphabetically
 4. Returning the sorted characters as a JSON array
 
-# API Endpoints
+---
+## API Endpoints
 POST `webhook/sort-word`
 
 Request body:
@@ -29,7 +31,8 @@ Response:
   ```
 
 
-# Installation
+---
+## Installation
 1. Clone the repo:
 
     ```bash
@@ -56,9 +59,11 @@ Response:
 5. Visit Swagger UI at http://localhost:8000/docs
 
 
-# Running tests
+---
+## Running tests
 
     pytest
 
-# Live link
+---
+## API Link
    https://converter-api-1t50.onrender.com/
